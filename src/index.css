@@ -19,12 +19,13 @@ code {
 .card{
   margin: 100px;
   width: 300px;
-  height: 400px;
+  height: auto;
   padding: 10px;
   border-radius: 20px;
+  border: 1px solid rgb(214, 214, 214);
 
 
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .card> img{
@@ -32,8 +33,49 @@ code {
   width: 100%;
 }
 .title{
+  margin-top: 12px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.price{
+  color:  rgb(247, 111, 14);
+}
+h5{
+  font-weight: 400;
+  color: rgb(101, 101, 101) ;
+}
+.quantityButton{
+  margin-top: 24px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quantity{
+  border: 1px solid rgb(101, 101, 101);
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.quantity>img{
+  width: 20px;
+  height: 20px;
+}
+button{
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(247, 111, 14);
 }
